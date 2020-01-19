@@ -1,0 +1,42 @@
+{
+  "revision_id": "ad0776fc2c58413eeb698eac29f70bed8fece433694085e9bb600a33524666ea",
+  "name": "It_Jobs_Watch_Cookbook",
+  "run_list": [
+    "recipe[It_Jobs_Watch_Cookbook::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "It_Jobs_Watch_Cookbook": {
+      "version": "0.1.0",
+      "identifier": "50e9a769d1072eb5342f8ddf835f78813c5d4650",
+      "dotted_decimal_identifier": "22774903380969262.51004349632971615.132496458860112",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "It_Jobs_Watch_Cookbook",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "It_Jobs_Watch_Cookbook (0.1.0)": [
+
+      ]
+    }
+  }
+}

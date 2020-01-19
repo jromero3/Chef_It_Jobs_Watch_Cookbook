@@ -1,0 +1,12 @@
+[
+  "tests/test_csv_generator.py::TestCSVGenerator::test_csv_without_headers",
+  "tests/test_csv_generator.py::TestCSVGenerator::test_csv_with_headers",
+  "tests/test_csv_generator.py::TestCSVGenerator::test_csv_without_headers_default_location",
+  "tests/test_html_object_manager.py::TestHtmlObjectManager::test_html_manager_file_is_opened_correctly",
+  "tests/test_html_object_manager.py::TestHtmlObjectManager::test_incorrect_file_or_url_path_raises_name_error",
+  "tests/test_html_object_manager.py::TestHtmlObjectManager::test_html_manager_status_response_is_200",
+  "tests/test_html_object_manager.py::TestHtmlObjectManager::test_html_manager_returns_html_from_url",
+  "tests/test_top_30_html_reader.py::TestTop30HtmlReader::test_table_with_class_of_results_exists",
+  "tests/test_top_30_html_reader.py::TestTop30HtmlReader::test_table_headers_are_returned",
+  "tests/test_top_30_html_reader.py::TestTop30HtmlReader::test_30_objects_returned_from_table_parser"
+]
