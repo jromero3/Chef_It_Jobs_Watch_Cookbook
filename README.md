@@ -9,10 +9,12 @@ In my recipe file, I wrote in that my machine should:
 3) Install the required modules using pip by running the requierements.txt file
 4) Create a Downloads directory
 5) Create an ItJobsWatchTop30.csv file\
+
 I also made sure to create a spec test file prior to this, in order to make\
 sure I could run a unit test to check that I had everything I wanted to be\
 provisioned. After I ran the unit test and made sure all tests passed, I began\
 creating the integration test, checking that:\
+
 1) Pip was installed
 2) The Downloads folder was created
 3) The ItJobsWatchTop30.csv file was created
