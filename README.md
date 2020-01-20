@@ -4,6 +4,7 @@
 
 I began by writing the cookbook that would be used to provision the python app.\
 In my recipe file, I wrote in that my machine should:
+
 1) Update all sources
 2) Install pip through python3
 3) Install the required modules using pip by running the requierements.txt file
@@ -43,4 +44,4 @@ slave node with the Python environment in order to test the app would work.\
 If the app works correctly and the job succeeds, it triggers another job that\
 will merge the data to the master branch. Then the same webhook will trigger\
 again from the merge, causing the packer file to create an AMI and put it on\
-AWS.
+AWS. There will be a diagram available in the repository for you to follow.
